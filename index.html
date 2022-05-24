@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Order Summary</title>
+
+    <!-- FontAwesome 6.1.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__header">
+            <img src="./assets/images/undraw_happy_music_g6wc.svg" alt="Listening to music">
+        </div>
+        <div class="card__body">
+            <p class="card__title">Order Summary</p>
+            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia accusantium.</p>
+
+            <div class="orders">
+                <div class="order">
+                    <div class="order__main-information">
+                        <i class="fa-solid fa-music order__icon-music"></i>
+                        <div class="order__details">
+                            <p class="order__title">Annual Plan</p>
+                            <p class="order__price">$59.99/years</p>
+                        </div>
+                    </div>
+                    <div class="order__options">
+                        <a href="#change">Change</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="card__button-payment">Proceed to Payment</button>
+            <a href="#cancel-order" class="card__button-cancel-order">Cancel Order</a>
+        </div>
+    </div>
+</body>
+</html>
