@@ -115,9 +115,11 @@ body {
     box-shadow: var(--shadow-button);
     cursor: pointer;
     overflow: hidden;
+    transition: all 1s;
 }
 .card__button-payment:hover {
     background-color: var(--primary-color-hover);
+    transform: scale(1.05);
 }
 .card__button-payment:active {
     background-color: var(--primary-color-active);
